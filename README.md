@@ -38,6 +38,7 @@
       - [Structure Types](#structure-types)
       - [Tuple Types](#tuple-types)
       - [Nullable Value Types](#nullable-value-types)
+      - [Date & Time Types](#date-&-time-types)
     - [Reference Types](#reference-types)
       - [Built-In Reference Types](#built-in-reference-types)
         - [Object Types](#object-types)
@@ -570,6 +571,19 @@ else
 **Learn More:**
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
 
+#### Date & Time Types
+
+DatetTime
+
+TimeSpan
+
+```csharp
+
+DateTime startHour = new DateTime.now();
+
+TimeSpan workTime = new TimeSpan(8, 35, 0);
+
+```
 ### Reference Types
 
 #### Built-In Reference Types
