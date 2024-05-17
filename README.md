@@ -1125,13 +1125,13 @@ int month = 3;
 string monthString;
 switch (month)
 {
-    case 1:
+    case >= 1 and <= 1:
         monthString = "January";
         break;
-    case 2:
+    case >= 2 and <= 2:
         monthString = "February";
         break;
-    case 3:
+    case >= 3 and (< 3 or 3):
         monthString = "March";
         break;
     // You can assign more than one case to an action
