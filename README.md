@@ -1330,8 +1330,14 @@ static void Main(string[] args)
         {
             throw new Exception("Two numbers are required");
         }
+
         double x = double.Parse(args[0]);
-        double y = double.Parse(args[1]);
+        double y;
+        if (double.TryParse(args[1], out y);)
+        {
+            Console.WriteLine("Parsing Failed");
+        }
+
         Console.WriteLine(Divide(x, y));
     }
 
