@@ -1333,9 +1333,9 @@ static void Main(string[] args)
 
         double x = double.Parse(args[0]);
         double y;
-        if (double.TryParse(args[1], out y);)
+        if (double.TryParse(args[1], out y))
         {
-            Console.WriteLine("Parsing Failed");
+            Console.WriteLine("Parsing Success: " + y);
         }
 
         Console.WriteLine(Divide(x, y));
